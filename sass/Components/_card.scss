@@ -1,0 +1,114 @@
+.card
+{
+    perspective: 200rem;
+    position: relative;
+    height: 20rem;
+
+    &__side
+    {
+        border-radius: 1rem;
+        color: $color-white;
+        font-size: 2rem;
+        height: 20rem;
+        transition: all 0.8s ease;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: 0.4);
+        &--front-1
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image1.JPG");
+            background-size: cover;
+            background-position: center;
+        }
+        &--front-2
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image2.JPG");
+            background-size: cover;
+            background-position: center;
+        }
+        &--front-3
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image3.JPG");
+            background-size: cover;
+            background-position: center;
+        }
+        &--front-4
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image4.JPG");
+            background-size: cover;
+            background-position: center;
+        }
+        &--front-5
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image5.JPG");
+            background-position: center;
+            background-size: cover;
+        }
+        &--front-6
+        {
+            background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, $opacity-card),
+            rgba($color-primary-dark, $opacity-card)),
+            url("../../img/image6.JPG");
+            background-size: cover;
+            background-position: center;
+        }
+        &--back
+        {
+            background-color: $color-tertiary-dark;
+            transform: rotateY(180deg);
+        }
+        &--text
+        {
+            text-align: center;
+            font-size: 2rem;
+            padding-top: 9rem;
+        }
+    }
+    &:hover &__side--front-1
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--front-2
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--front-3
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--front-4
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--front-5
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--front-6
+    {
+        transform: rotateY(-180deg);
+    }
+    &:hover &__side--back
+    {
+        transform: rotateY(0);
+    }
+}

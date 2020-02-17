@@ -1,0 +1,22 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "My profile",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderslazy/profile.git"
+  },
+  "author": "QuangNef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderslazy/profile/issues"
+  },
+  "homepage": "https://github.com/coderslazy/profile#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

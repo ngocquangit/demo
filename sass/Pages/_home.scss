@@ -1,0 +1,28 @@
+.about-section
+{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -25rem;
+}
+.skills-section{
+    background-image: linear-gradient(to right bottom,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url("../img/background.jpg");
+    padding: 20rem 0;
+    position: relative;
+    background-size: cover;
+    clip-path: ellipse(70% 50% at 50% 50%);
+    margin-top: -20rem;
+}
+.image-section
+{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 10rem 0;
+    margin-top: -20rem;
+}
+.enroll-section
+{
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,$color-primary-light,$color-primary-dark);
+}
